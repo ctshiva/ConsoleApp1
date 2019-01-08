@@ -14,7 +14,7 @@ namespace ConsoleApp1
             string accountCode = "1011A";
             if (!accountCode.StartsWith("A") && !accountCode.StartsWith("V"))
             {
-                accountCode = "A" + accountCode;
+                accountCode = "A" + accountCode; // modified
             }
         }
     }
